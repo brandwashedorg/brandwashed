@@ -3,6 +3,7 @@
 body {
   font-family: 'Garamond, serif';
   margin: 0;
+  background-color: #FFB4CC;
 }
 
 html {
@@ -28,10 +29,38 @@ src: url(Migae.otf)
 }
 
 .card {
-  box-shadow: 0 14px 8px 0 rgb(255 230 238);
+  background-color:  #F2949C;
+  border-radius: 15px; 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); 
   margin: 8px;
- 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  font-family: "Migae", cursive;
+  color: #FFF5F2;
+  }
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #F2C1BD;
+  color: #5E4B43;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12); 
 }
+
+.tableu {
+  padding: 20px;
+  text-align: center;
+}
+
+.person {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #7A7878;
+}
+
+.description {
+  color: #9a9a9a;
+  font-size: 0.95em;
+}
+
 
 .about-section {
   padding: 60px;
@@ -41,9 +70,7 @@ src: url(Migae.otf)
   font-family:"Migae", cursive;
 }
 
-.tableu {
-  padding:  13 16px;
-}
+
 
 .person::after, .row:: {
   content: "";
@@ -71,10 +98,11 @@ src: url(Migae.otf)
   color: #7A7878;
   font-family:"Migae", cursive;
 }
+  
 </style>
 <body>
 <div class="about-section">
-<h2>ABOUT US!!!</h2>
+<h2>ABOUT US!</h2>
 <p>CONTENT WHAT WE ARE</p>
 </div>
 
@@ -102,6 +130,7 @@ src: url(Migae.otf)
 
 </body>
 </html>
+
 
 
 
